@@ -1,0 +1,18 @@
+.innerText: seleciona somente o texto, SEM formatação
+.innerHTML: seleciona o texto COM formatação
+
+Existem 5 maneiras de selecionar um elemento no JS:
+Por marca:
+    window.document.getElementsByTagName()[]
+Por ID:
+    window.document.getElementByid()
+Por nome:
+    window.document.getElementsByName()[]
+Por classe:
+    window.document.getElementsByClassName()[]
+Por seletor:
+    querySelector() -> PARA SINGULAR
+    querySelectorAll()[] -> PARA PLURAL
+ 
+Class se utiliza '.'
+ID se utiliza '#'

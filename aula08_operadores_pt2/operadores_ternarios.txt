@@ -1,0 +1,6 @@
+Dois sinais são utilizados: (?) e o (:)
+O operador ternário é dividido em três partes: 
+    TESTE LÓGICO ? O QUE ACONTECE CASO SEJA VERDADEIRO : O QUE ACONTECE CASO SEJA FALSO
+
+Por exemplo:
+    media <= 7.0 ? 'Aprovado' : 'Reprovado'

@@ -1,0 +1,5 @@
+! == Negação (Não)
+&& == Junção (E)
+|| == Disjunção (Ou)
+
+Ordem de resolução caso todos os operadores lógicos apareçam juntos: !, &&, ||

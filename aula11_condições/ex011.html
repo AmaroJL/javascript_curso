@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+
+    <style>
+        body {
+            background-color: rgb(49, 45, 45);
+            color: white;
+            font: normal 15pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é do Brasil?</h1>
+    Informe o seu país: <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Avançar" onclick="busca()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function busca() {
+            var pais = document.getElementById("txtpais")
+            var res = document.getElementById("res")
+            res.innerHTML = `<p>Você é do(a) ${pais.value}.</p>`
+            
+            if (pais.value == "Brasil") {
+                res.innerHTML += '<p>Já é de casa.</p>'
+            } else {
+                res.innerHTML += '<p>Estrangeiro. Bem vindo ao Brasil!</p>'
+            }
+        }
+    </script>
+</body>
+</html>
